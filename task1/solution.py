@@ -30,3 +30,8 @@ def strict(func):
 @strict
 def sum_two(a: int, b: int) -> int:
     return a + b
+
+
+if __name__ == "__main__":
+    print(sum_two(2, 5))
+    print(sum_two(2.4, "hi"))
